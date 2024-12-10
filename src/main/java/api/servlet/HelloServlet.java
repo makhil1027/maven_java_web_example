@@ -7,8 +7,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
-import org.codehaus.jackson.map.ObjectMapper;
+
+// import org.codehaus.jackson.map.ObjectMapper;
 
 @WebServlet("/hello")
 public class HelloServlet extends HttpServlet {
